@@ -32,3 +32,12 @@ void on_recv_pkt(foggy_socket_t *sock, uint8_t *pkt);
  */
 void send_pkts(foggy_socket_t *sock, uint8_t *data, int buf_len);
 
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+void add_receive_window(foggy_socket_t *sock, uint8_t *pkt);
+
+void process_receive_window(foggy_socket_t *sock);
+
+void transmit_send_window(foggy_socket_t *sock);
+
+void receive_send_window(foggy_socket_t *sock);
