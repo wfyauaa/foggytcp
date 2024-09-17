@@ -14,7 +14,7 @@ using namespace std;
 
 #include "foggy_tcp.h"
 
-#define BUF_SIZE 4096
+#define BUF_SIZE 4096 //send help
 
 /**
  * This file implements a simple TCP client. Its purpose is to provide simple
